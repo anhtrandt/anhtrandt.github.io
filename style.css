@@ -32,6 +32,11 @@ nav a {
     margin-right: 15px;
 }
 
+/* adjust fontsize for heading*/
+.heading {
+    font-size: 18px;
+}
+
 /* adjust the gap between papers*/
 .working-papers li {
     margin-bottom: 15px;
@@ -39,5 +44,5 @@ nav a {
 
 /* adjust the gap between paper and R&R note */
 .rr-note li {
-    margin-top: 6px; 
+    margin-top: 15px; 
 }
