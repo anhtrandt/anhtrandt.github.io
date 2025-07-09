@@ -35,6 +35,7 @@ nav a {
 /* adjust fontsize for heading*/
 .heading {
     font-size: 24px;
+    margin-top: 30px;
 }
 
 /* adjust the gap between papers*/
