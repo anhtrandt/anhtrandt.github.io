@@ -28,8 +28,24 @@ body {
     flex: 1;
     padding: 30px;
 }
+
+nav {
+    text-align: center;
+    padding: 12px;
+    background-color: #ffffff; /* or light gray if you prefer */
+    border-bottom: 1px solid #ddd;
+}
+
 nav a {
-    margin-right: 15px;
+    margin: 0 10px;
+     margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 /* For email and CV icon side-by-side*/
