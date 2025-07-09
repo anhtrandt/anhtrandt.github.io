@@ -32,6 +32,20 @@ nav a {
     margin-right: 15px;
 }
 
+/* For email and CV icon*/
+
+.icon-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* space between buttons */
+    flex-wrap: wrap; /* wrap if too narrow */
+}
+.icon {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
 /* adjust fontsize for heading*/
 .heading {
     font-size: 22px;
