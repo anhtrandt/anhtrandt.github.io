@@ -44,5 +44,5 @@ nav a {
 
 /* adjust the gap between paper and R&R note */
 .rr-note li {
-    margin-top: 15px; 
+    padding-top: 15px; 
 }
