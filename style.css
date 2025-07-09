@@ -37,13 +37,17 @@ nav a {
 .icon-row {
     display: flex;
     justify-content: center;
-    gap: 15px; /* space between buttons */
-    flex-wrap: wrap; /* wrap if too narrow */
+    gap: 12px;
+    flex-wrap: nowrap; /* force 1 line */
+    align-items: center;
 }
+
 .icon {
+    white-space: nowrap;
     text-decoration: none;
     font-size: 16px;
 }
+
 
 
 /* adjust fontsize for heading*/
