@@ -31,6 +31,13 @@ body {
 nav a {
     margin-right: 15px;
 }
+
+/* adjust the gap between papers*/
 .working-papers li {
     margin-bottom: 15px;
+}
+
+/* adjust the gap between paper and R&R note */
+.rr-note {
+    margin-top: 6px; 
 }
