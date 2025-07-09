@@ -48,7 +48,6 @@ nav a {
     padding-top: 15px; 
 }
 
-.evaluation li {
-    padding-top: 15px; 
-    margin-bottom: 15px;
+.evaluation {
+    margin-top: 15px;
 }
