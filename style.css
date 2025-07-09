@@ -31,6 +31,6 @@ body {
 nav a {
     margin-right: 15px;
 }
-li {
-    margin-bottom: 15px; /* or 15px, depending how much space you want */
+.working-papers li {
+    margin-bottom: 15px;
 }
