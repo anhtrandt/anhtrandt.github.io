@@ -21,10 +21,7 @@ body {
 .contact {
     margin-top: 20px;
 }
-.icon {
-    display: block;
-    margin: 5px 0;
-}
+
 .main {
     flex: 1;
     padding: 30px;
@@ -90,6 +87,7 @@ nav a:hover {
     align-items: center;
     margin-top: 15px;
 }
+
 
 .icon {
     text-decoration: none;
