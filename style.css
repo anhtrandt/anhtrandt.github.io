@@ -204,7 +204,7 @@ a.plain-link {
   color: black;
 }
 
-a.plain-link: hover  {
+a.plain-link:hover  {
   text-decoration: underline; /* or keep none */
   color: #007BFF; /* darker blue on hover */
 }
