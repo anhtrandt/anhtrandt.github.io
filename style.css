@@ -155,6 +155,17 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/* For email and CV icon side-by-side*/
+.icon-row {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    flex-wrap: wrap; /* allows wrapping on very narrow screens */
+    background-color: #ffffff;
+    align-items: center;
+    margin-top: 15px;
+}
+
 /* For email blue icon*/
 .icon {
     display: inline-flex;
@@ -188,16 +199,6 @@ nav a:hover {
     background-color: #ffffff;
 }
 
-/* For email and CV icon side-by-side*/
-.icon-row {
-    display: flex;
-    justify-content: center;
-    gap: 12px;
-    flex-wrap: wrap; /* allows wrapping on very narrow screens */
-    background-color: #ffffff;
-    align-items: center;
-    margin-top: 15px;
-}
 
 
 /* hyper link format*/
