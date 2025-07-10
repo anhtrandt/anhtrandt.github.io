@@ -35,11 +35,17 @@ body {
 
 
 nav {
-    text-align: center;
-    padding: 12px;
-    background-color: #ffffff; /* or light gray if you prefer */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
     border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000;
 }
+
 
 nav a {
     margin: 0 10px;
