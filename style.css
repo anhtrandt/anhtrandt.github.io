@@ -6,6 +6,7 @@ body {
 }
 .container {
     display: flex;
+    padding-top: 50px;
 }
 .sidebar {
     width: 250px;
