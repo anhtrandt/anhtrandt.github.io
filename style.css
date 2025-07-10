@@ -195,6 +195,18 @@ a:hover {
   color: #0056b3; /* darker blue on hover */
 }
 
+a.plain-link {
+  text-decoration: none;
+  color: black;
+}
+
+a.plain-link: hover  {
+  text-decoration: underline; /* or keep none */
+  color: #0056b3; /* darker blue on hover */
+}
+
+
+
 
 
 /* adjust fontsize for heading*/
