@@ -8,10 +8,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="teaching-page">
-    <nav>
-                <a href="index.html">Home</a> |
-                <a href="teaching.html">Teaching</a>
-    </nav>
+     <nav class="navbar">
+          <div class="nav-left">
+            <div class="menu-toggle" onclick="toggleMenu()">
+              ☰ <span class="nav-name">Anh Tran</span>
+            </div>
+            <div id="nav-menu" class="nav-menu">
+              <a href="index.html">Home</a>
+              <a href="teaching.html">Teaching</a>
+            </div>
+          </div>
+        </nav>
     
     <div class="container">
         <div class="sidebar">
@@ -57,5 +64,13 @@
              </ul>   
         </div>
     </div>
+
+ <script>
+  function toggleMenu() {
+    const menu = document.getElementById("nav-menu");
+    menu.style.display = menu.style.display === "flex" ? "none" : "flex";
+  }
+</script>  
+    
 </body>
 </html>
