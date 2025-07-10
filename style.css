@@ -63,9 +63,16 @@ nav a:hover {
 }
 
 /* For email blue icon*/
-.blue-icon {
-    color: #007BFF; /* Bootstrap blue */
-    font-size: 24px;
+.icon-img {
+    width: 28px;
+    height: 28px;
+    margin: 0 5px;
+    vertical-align: middle;
+    transition: transform 0.2s ease;
+}
+
+.icon-img:hover {
+    transform: scale(1.15);
 }
 
 /* For email and CV icon side-by-side*/
