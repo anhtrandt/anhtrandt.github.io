@@ -4,6 +4,8 @@ body, html {
   padding: 0;
   width: 100%;
   overflow-x: hidden;
+  max-width: 100%;
+  box-sizing: border-box;
   background-color: white !important;  
 }
 
@@ -20,6 +22,7 @@ body, html {
     width: 250px;
      background-color: #ffffff !important;
     padding: 20px;
+    box-sizing: border-box;
     text-align: center;
 }
 .profile-pic {
@@ -33,6 +36,7 @@ body, html {
 .main {
     flex: 1;
     padding: 30px;
+    box-sizing: border-box;
 }
 
 .teaching-page .main h2:first-of-type {
@@ -237,6 +241,7 @@ a.plain-link: hover  {
 
     .sidebar {
         width: 100%;
+        max-width: 100%;
         text-align: center;
         padding: 10px;
     }
@@ -244,6 +249,7 @@ a.plain-link: hover  {
     .main {
         padding: 16px;
         width: 100%;
+        max-width: 100%;
     }
 
     nav a {
