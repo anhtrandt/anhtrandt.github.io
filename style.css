@@ -40,6 +40,10 @@ body, html {
     margin-top: 0;
 }
 
+p {
+  text-align: justify;
+}
+
 .navbar {
   position: fixed;
   top: 0;
