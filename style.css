@@ -85,24 +85,13 @@ nav a:hover {
     justify-content: center;
     gap: 12px;
     flex-wrap: wrap; /* allows wrapping on very narrow screens */
+    background-color: #ffffff;
     align-items: center;
     margin-top: 15px;
 }
 
 
-.icon {
-    text-decoration: none;
-    font-size: 16px;
-    white-space: nowrap;
-    padding: 6px 10px;
-    border-radius: 6px;
-    background-color: #ffffff;
-    transition: background-color 0.2s ease;
-}
 
-.icon:hover {
-    background-color: #ddd;
-}
 
 
 
