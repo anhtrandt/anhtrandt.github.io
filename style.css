@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: white !important;
 }
 .container {
     display: flex;
@@ -32,6 +33,71 @@ body {
 }
 .home-page .main p:first-of-type {
     margin-top: 0;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  user-select: none;
+  padding: 5px;
+}
+
+.nav-name {
+  font-weight: bold;
+  font-size: 18px;
+  color: #007BFF;
+}
+
+.nav-menu {
+  display: none;
+  flex-direction: column;
+  background-color: white;
+  position: absolute;
+  left: 20px;
+  top: 50px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #007BFF;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.nav-menu a:last-child {
+  border-bottom: none;
+}
+
+.nav-menu a:hover {
+  background-color: #f0f0f0;
+}
+
+.navbar,
+.sidebar,
+.main,
+.nav-menu {
+    background-color: white !important;
 }
 
 nav {
