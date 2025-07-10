@@ -1,14 +1,19 @@
+body, html {
+ font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: white !important;  
+}
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: white !important;
-}
 .container {
+  width: 100%;
+  max-width: 100%;
     display: flex;
-    padding-top: 50px;
+  box-sizing: border-box;
+     padding-top: 50px;
 }
+
 .sidebar {
     width: 250px;
      background-color: #ffffff !important;
@@ -212,6 +217,7 @@ nav a:hover {
 
     .main {
         padding: 15px;
+        width: 100%;
     }
 
     nav a {
