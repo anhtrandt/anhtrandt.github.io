@@ -33,7 +33,9 @@ body {
 .teaching-page .main h2:first-of-type {
     margin-top: 0;
 }
-
+.home-page .main p:first-of-type {
+    margin-top: 0;
+}
 
 nav {
     position: fixed;
