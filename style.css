@@ -55,10 +55,10 @@ body {
 }
 
 .menu-icon {
-  font-size: 36px;
+  font-size: 30px;
   cursor: pointer;
   user-select: none;
-  padding: 5px;
+  padding: 0 5px 0 0  ;
 }
 
 .menu-icon:hover {
