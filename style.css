@@ -159,7 +159,7 @@ nav a:hover {
 .icon-row {
     display: flex;
     justify-content: center;
-    gap: 12px;
+    gap: 10px;
     flex-wrap: wrap; /* allows wrapping on very narrow screens */
     background-color: #ffffff;
     align-items: center;
