@@ -58,6 +58,10 @@ body, html {
     line-height: 1;    
 }
 
+.title-spacing {
+    margin-bottom: 8px;
+}
+
 p {
   text-align: justify;
 }
