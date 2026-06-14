@@ -58,8 +58,15 @@ body, html {
     line-height: 1;    
 }
 
-p.title-line.title-spacing {
-    margin-bottom: 8px !important;
+.title-line2 {
+    font-size: 14px;
+    color: #555;
+    margin: 0 0 8px 0;
+    text-align: center;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1;
 }
 
 p {
